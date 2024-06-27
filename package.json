@@ -1,0 +1,37 @@
+{
+  "name": "lyricsify",
+  "version": "1.0.0",
+  "description": "lyricsify.com api",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "prepublishOnly": "tsc",
+    "test": "tsc && node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r0wanda/lyricsify.git"
+  },
+  "keywords": [
+    "lyrics",
+    "lrc",
+    "lyricsify"
+  ],
+  "author": "Rowanda",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/r0wanda/lyricsify/issues"
+  },
+  "homepage": "https://github.com/r0wanda/lyricsify#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "clrc": "^3.1.4",
+    "escape-goat": "^4.0.0",
+    "got": "^14.4.1",
+    "user-agents": "^1.1.241"
+  },
+  "devDependencies": {
+    "@types/user-agents": "^1.0.4"
+  }
+}
